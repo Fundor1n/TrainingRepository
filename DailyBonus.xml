@@ -62,7 +62,7 @@
 		<Screenplay name="DailyBonusDay7"/>
 	</Day7Screenplays>
 
-	<!-- Настройки награды для календаря с бонусами за дни (8, 15, 22, 30) -->
+	<!-- Настройки награды для календаря с бонусами: за дни (8, 15, 22, 30) -->
 	<!-- Награды, в зависимости от уровня игрока, задаются в штуках (ItemDayRewards) или в секундах (TimeDayRewards) -->
 	<!-- Типы наград: -->
 	<!-- BombAndLineBoost, LightningBoost, MultiplyFishBoost задаются в штуках/секундах -->
@@ -72,7 +72,7 @@
 		<ItemDayRewards>
 			<Day number="8">
 				<Reward id="LightningBoost" count="1"/>
-				<Reward id="ProtectLives" count="1800"/>
+				<Reward id="ProtectLives" count="18000"/>
 			</Day>
 			<Day number="15">
 				<Reward id="BombAndLineBoost" count="1"/>
